@@ -1,0 +1,752 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background-color: black;
+}
+
+/* .container {
+  width: 100%;
+} */
+
+
+/* Nav */
+ul {
+  display: inline-block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  
+}
+li {
+  display: inline-block;
+}
+.home {
+  width: 93px;
+  color: rgba(255,255,255,1);
+  font-family: Public Sans;
+  font-weight: Bold;
+  font-size: 30px;
+  opacity: 1;
+  text-align: center;
+  padding: 0 40px 0 40px;
+  text-decoration: none;
+}
+.home:hover {
+  color: rgba(0,209,255,1);
+  cursor: pointer;
+  text-decoration: none;
+}
+.about_me {
+  width: 155px;
+  color: rgba(255,255,255,1);
+  font-family: Public Sans;
+  font-weight: Bold;
+  font-size: 30px;
+  opacity: 1;
+  text-align: center;
+  padding: 0 40px 0 40px; 
+  text-decoration: none;
+}
+.about_me:hover {
+  color: rgba(0,209,255,1);
+  cursor: pointer;
+  text-decoration: none;
+}
+.contact {
+  width: 190px;
+  color: rgba(255,255,255,1);
+  font-family: Public Sans;
+  font-weight: Bold;
+  font-size: 30px;
+  opacity: 1;
+  text-align: center;
+  padding: 0 40px 0 40px; 
+  text-decoration: none;
+}
+.contact:hover {
+  color: rgba(0,209,255,1);
+  cursor: pointer;
+  text-decoration: none;
+}
+.resume {
+  width: 130px;
+  color: rgba(255,255,255,1);
+  font-family: Public Sans;
+  font-weight: Bold;
+  font-size: 30px;
+  opacity: 1;
+  text-align: center;
+  padding: 0 40px 0 40px;
+  text-decoration: none;
+}
+.resume:hover {
+  color: rgba(0,209,255,1);
+  cursor: pointer;
+  text-decoration: none;
+}
+.projects {
+  width: 155px;
+  color: rgba(0,209,255,1);
+  font-family: Public Sans;
+  font-weight: Bold;
+  font-size: 30px;
+  opacity: 1;
+  text-align: center;
+  padding: 0 40px 0 40px;
+}
+/* Project Page Hover over not needed */
+/* .projects:hover {
+  color: rgba(0,209,255,1);
+  cursor: pointer;
+  text-decoration: none;
+} */
+.linkedin {
+  width: 146px;
+  color: rgba(255,255,255,1);
+  font-family: Public Sans;
+  font-weight: Bold;
+  font-size: 30px;
+  opacity: 1;
+  text-align: center;
+  padding: 0 40px 0 40px;
+  text-decoration: none;
+}
+.linkedin:hover {
+  color: rgba(0,209,255,1);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+.spaceHolder {
+  width: 50px;
+  height: 50px;
+}
+
+/* 
+#aacatHomePageGrid {
+  margin: 0px 2%;
+  display: grid;
+  min-height: 1835px;
+  height: 70vh;
+  grid-template-rows: 75% 25%;
+  grid-template-columns: 75% 25%;
+  grid-template-areas:
+    "greyBox header"
+    "greyBox header";
+} */
+
+
+
+
+
+/* Hero Section */
+.greyBox {
+  width: 1017px;
+  height: 1835px;
+  /* grid-area: greyBox; */
+  background: rgba(146,148,151,1);
+}
+
+.aacatHeroimage {
+  width: 864px;
+  height: 1725px;
+  background: url("../images/heroimage.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 0 50px 0 50px;
+  /* display: flex; */
+  overflow: hidden;
+  position: absolute;
+  top: 186px;
+  left: 75px;
+}
+
+/* couldnt get the grid to work */
+/* .aacatHomePageGridArea {
+  background-position: left;
+  background-repeat: none;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  position: relative;
+} */
+
+/* .container-fluid {
+  viewport-fit: 100%;
+} */
+
+/* .greyBox1 {
+  width: 1017px;
+  height: 1840px;
+  background: rgba(146,148,151,1);
+  display: flex;
+  overflow: hidden; */
+  /* position: absolute;
+  top: 166px;
+  left: 0px;
+} */
+
+/* .aacatHome {
+  width: 864px;
+  height: 1725px;
+  background: url("../images/v21_24.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 0 50px 0 50px;
+  display: flex;
+  overflow: hidden; */
+  /* position: absolute;
+  top: 220px;
+  left: 75px;
+} */
+
+.projectHeader {
+  width: 318px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 113px;
+  left: 1095px;
+  font-family: Public Sans;
+  font-weight: Medium;
+  font-size: 40px;
+  text-align: left;
+}
+.designProcess {
+  width: 343px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 175px;
+  left: 1095px;
+  font-family: Public Sans;
+  font-weight: Regular;
+  font-size: 20px;
+  text-align: left;
+}
+.problem {
+  width: 343px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 206px;
+  left: 1095px;
+  font-family: Public Sans;
+  font-weight: Regular;
+  font-size: 20px;
+  text-align: left;
+}
+.solution {
+  width: 343px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 561px;
+  left: 1095px;
+  font-family: Public Sans;
+  font-weight: Regular;
+  font-size: 20px;
+  text-align: left;
+}
+.listedBelow {
+  width: 343px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 819px;
+  left: 1095px;
+  font-family: Public Sans;
+  font-weight: Regular;
+  font-size: 20px;
+  text-align: left;
+}
+
+
+
+
+/* Empathy Section */
+.empathyBox {
+  width: 1017px;
+  height: 595px;
+  background: rgba(146,148,151,1);
+  position: absolute;
+  top: 2738px;
+  left: 0px;
+  overflow: hidden;
+}
+.empathyphoto {
+  width: 865px;
+  height: 487px;
+  background: url("../images/empathyphoto.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 2792px;
+  left: 75px;
+  overflow: hidden;
+}
+.mapVerbiage {
+  width: 343px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 2736px;
+  left: 1103px;
+  font-family: Public Sans;
+  font-weight: Regular;
+  font-size: 20px;
+  text-align: left;
+}
+
+
+
+/* Heuristic Section */
+.heuristicBox {
+  width: 1017px;
+  height: 595px;
+  background: rgba(146,148,151,1);
+  position: absolute;
+  top: 2073px;
+  left: 0px;
+  overflow: hidden;
+}
+.heuristicsVerbiage {
+  width: 343px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 2071px;
+  left: 1103px;
+  font-family: Public Sans;
+  font-weight: Regular;
+  font-size: 20px;
+  text-align: left;
+}
+.heuristicphoto {
+  width: 864px;
+  height: 486px;
+  background: url("../images/heuristicphoto.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 2120px;
+  left: 75px;
+  overflow: hidden;
+}
+
+
+
+/* User Insight Section */
+.insightBox {
+  width: 1017px;
+  height: 595px;
+  background: rgba(146,148,151,1);
+  position: absolute;
+  top: 3405px;
+  left: 0px;
+  overflow: hidden;
+}
+.userInsightVerbiage {
+  width: 343px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 3403px;
+  left: 1103px;
+  font-family: Public Sans;
+  font-weight: Regular;
+  font-size: 20px;
+  text-align: left;
+}
+.userInsitePhoto {
+  width: 866px;
+  height: 487px;
+  background: url("../images/userInsitePhoto.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 3459px;
+  left: 75px;
+  overflow: hidden;
+}
+
+
+/* Problem Statement Section */
+.problemStatementBox {
+  width: 1017px;
+  height: 595px;
+  background: rgba(146,148,151,1);
+  position: absolute;
+  top: 4072px;
+  left: 0px;
+  overflow: hidden;
+}
+.problemStatementVerbiage {
+  width: 343px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 4070px;
+  left: 1103px;
+  font-family: Public Sans;
+  font-weight: Regular;
+  font-size: 20px;
+  text-align: left;
+}
+.problemstatementphoto {
+  width: 866px;
+  height: 486px;
+  background: url("../images/problemstatementphoto.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 4127px;
+  left: 75px;
+  overflow: hidden;
+}
+
+
+
+/* Storyboard Section */
+.storyboardBox {
+  width: 1017px;
+  height: 595px;
+  background: rgba(146,148,151,1);
+  position: absolute;
+  top: 4741px;
+  left: 0px;
+  overflow: hidden;
+}
+.storyBoardVerbiage {
+  width: 343px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 4739px;
+  left: 1103px;
+  font-family: Public Sans;
+  font-weight: Regular;
+  font-size: 20px;
+  text-align: left;
+}
+.storyboardphoto {
+  width: 865px;
+  height: 487px;
+  background: url("../images/storyboardphoto.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 4797px;
+  left: 75px;
+  overflow: hidden;
+}
+
+
+
+
+/* Feature Matrix Section */
+.featureMatrixBox {
+  width: 1017px;
+  height: 595px;
+  background: rgba(146,148,151,1);
+  position: absolute;
+  top: 5408px;
+  left: 0px;
+  overflow: hidden;
+}
+.featureMatrixVerbiage {
+  width: 343px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 5406px;
+  left: 1103px;
+  font-family: Public Sans;
+  font-weight: Regular;
+  font-size: 20px;
+  text-align: left;
+}
+.featurePhoto {
+  width: 865px;
+  height: 487px;
+  background: url("../images/featurePhoto.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 5462px;
+  left: 75px;
+  overflow: hidden;
+}
+
+
+/* Sitemap Section */
+.sitemapBox {
+  width: 1017px;
+  height: 595px;
+  background: rgba(146,148,151,1);
+  position: absolute;
+  top: 6076px;
+  left: 0px;
+  overflow: hidden;
+}
+.sitemapVerbiage {
+  width: 343px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 6074px;
+  left: 1103px;
+  font-family: Public Sans;
+  font-weight: Regular;
+  font-size: 20px;
+  text-align: left;
+}
+.sitephoto {
+  width: 865px;
+  height: 487px;
+  background: url("../images/sitephoto.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 6130px;
+  left: 75px;
+  overflow: hidden;
+}
+
+
+
+/* Wireframe Section */
+.wireframesBox {
+  width: 1017px;
+  height: 595px;
+  background: rgba(146,148,151,1);
+  position: absolute;
+  top: 6743px;
+  left: 0px;
+  overflow: hidden;
+}
+.wireframesVerbiage {
+  width: 343px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 6741px;
+  left: 1103px;
+  font-family: Public Sans;
+  font-weight: Regular;
+  font-size: 20px;
+  text-align: left;
+}
+.wireframephoto {
+  width: 865px;
+  height: 487px;
+  background: url("../images/wireframephoto.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 6797px;
+  left: 75px;
+  overflow: hidden;
+}
+
+
+
+
+/* Mid Fidelity Section */
+.midProtoBox {
+  width: 1017px;
+  height: 595px;
+  background: rgba(146,148,151,1);
+  position: absolute;
+  top: 7409px;
+  left: 0px;
+  overflow: hidden;
+}
+.midProtoVerbiage {
+  width: 343px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 7407px;
+  left: 1103px;
+  font-family: Public Sans;
+  font-weight: Regular;
+  font-size: 20px;
+  text-align: left;
+}
+.midfidphoto {
+  width: 862px;
+  height: 487px;
+  background: url("../images/midfidphoto.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 7463px;
+  left: 75px;
+  overflow: hidden;
+}
+
+
+
+/* User Testing Section */
+.userTestBox {
+  width: 1017px;
+  height: 595px;
+  background: rgba(146,148,151,1);
+  position: absolute;
+  top: 8076px;
+  left: 0px;
+  overflow: hidden;
+}
+.userTestVerbiage {
+  width: 343px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 8074px;
+  left: 1103px;
+  font-family: Public Sans;
+  font-weight: Regular;
+  font-size: 20px;
+  text-align: left;
+}
+.usertestphoto {
+  width: 865px;
+  height: 487px;
+  background: url("../images/usertestphoto.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 8130px;
+  left: 75px;
+  overflow: hidden;
+}
+
+
+
+/* A/B Testing Section */
+.ABtestBox {
+  width: 1017px;
+  height: 595px;
+  background: rgba(146,148,151,1);
+  position: absolute;
+  top: 8743px;
+  left: 0px;
+  overflow: hidden;
+}
+.ABtestVerbiage {
+  width: 343px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 8741px;
+  left: 1103px;
+  font-family: Public Sans;
+  font-weight: Regular;
+  font-size: 20px;
+  text-align: left;
+}
+.abtestphoto {
+  width: 865px;
+  height: 487px;
+  background: url("../images/abtestphoto.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 8797px;
+  left: 75px;
+  overflow: hidden;
+}
+
+
+
+/* High Fidelity Section */
+.highFidBox {
+  width: 1017px;
+  height: 595px;
+  background: rgba(146,148,151,1);
+  opacity: 1;
+  position: absolute;
+  top: 9410px;
+  left: 0px;
+  overflow: hidden;
+}
+.highFidVerbiage {
+  width: 343px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 9408px;
+  left: 1103px;
+  font-family: Public Sans;
+  font-weight: Regular;
+  font-size: 20px;
+  text-align: left;
+}
+.highfidphoto {
+  width: 865px;
+  height: 487px;
+  background: url("../images/highfidphoto.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 9464px;
+  left: 75px;
+  overflow: hidden;
+}
+
+
+
+/* Final Thoughts Section */
+.finalBox {
+  width: 1017px;
+  height: 595px;
+  background: rgba(146,148,151,1);
+  position: absolute;
+  top: 10079px;
+  left: 0px;
+  overflow: hidden;
+}
+.finalVerbiage {
+  width: 343px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 10077px;
+  left: 1103px;
+  font-family: Public Sans;
+  font-weight: Regular;
+  font-size: 20px;
+  text-align: left;
+}
+.finalphoto {
+  width: 865px;
+  height: 487px;
+  background: url("../images/finalphoto.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 10133px;
+  left: 75px;
+  overflow: hidden;
+}
+
+
+
+
+/* Logo */
+.logo {
+  width: 173px;
+  height: 140px;
+  background: url("../images/logo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 10748px;
+  left: 75px;
+  overflow: hidden;
+}
