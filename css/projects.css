@@ -750,3 +750,18 @@ li {
   left: 75px;
   overflow: hidden;
 }
+
+.BS {
+  position: relative;
+    bottom: -8711px;
+}
+
+.BTM {
+  position: relative;
+  bottom: -8737px;
+}
+
+.Alert {
+  position: relative;
+  bottom: -8838px; 
+}
